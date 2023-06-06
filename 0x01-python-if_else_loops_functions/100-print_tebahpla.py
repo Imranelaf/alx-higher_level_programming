@@ -1,4 +1,8 @@
 #!/usr/bin/python3
+case = 0
 for letter in range(ord('z'), ord('a') - 1, -1):
-    l = chr(letter).lower() if (letter - ord('z')) % 2 == 0 else chr(letter).upper()
-    print(l, end="")
+    print("{}".format(chr(letter - case)), end="")
+    if case == 0:
+        case = 32
+    else:
+        case=0
