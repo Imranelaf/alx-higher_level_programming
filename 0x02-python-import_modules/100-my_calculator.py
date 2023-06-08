@@ -2,7 +2,7 @@
 
 if __name__ == "__main__":
     """import calculation functions from calculator file"""
-    from calculator_1 import * 
+    from calculator_1 import add, sub, mul, div  
     import sys
 
     if len(sys.argv) - 1 != 3:
