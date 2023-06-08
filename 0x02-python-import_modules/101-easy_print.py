@@ -1,2 +1,2 @@
 #!/usr/bin/python3
-import print_easy
+from easy_print import sentence
