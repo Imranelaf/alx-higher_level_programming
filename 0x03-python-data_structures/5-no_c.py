@@ -1,4 +1,4 @@
 #!/usr/bin/python3
 def no_c(my_string):
-    copy = [x for x in my_string if x not in "cC"]
+    new_string = [c for c in my_string if c not in "cC"]
     return "".join(new_string)
