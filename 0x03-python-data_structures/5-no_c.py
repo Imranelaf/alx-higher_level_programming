@@ -1,4 +1,6 @@
 #!/usr/bin/python3
-def no_c(my_string):
-    new_string = [c for c in my_string if c not in "cC"]
-    return "".join(new_string)
+def print_matrix_integer(matrix=[[]]):
+    for row in matrix:
+        for col in row:
+            print("{:d}".format(col), end=" " if col != row[-1] else "")
+        print()
