@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 def square_matrix_simple(matrix=[]):
-    squared = []
+    sqr = []
     for line in matrix:
-        squared.append([p**2 for p in line])
-    return squared
+        sqr.append([p**2 for p in line])
+    return sqr
