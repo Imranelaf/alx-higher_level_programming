@@ -43,6 +43,12 @@ void print_python_bytes(PyObject *p)
 	printf("\n");
 }
 
+/**
+ * print_python_list - Prints information about a Python list object
+ *
+ * @p: Python list object
+ * Return: No return value
+ */
 void print_python_list(PyObject *p)
 {
 	long int size, i;
