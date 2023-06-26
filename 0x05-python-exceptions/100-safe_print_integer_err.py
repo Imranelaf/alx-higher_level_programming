@@ -6,10 +6,8 @@ def safe_print_integer_err(value):
     Attempts to print the provided value as an integer using the
     "{:d}".format() method. If a TypeError or ValueError occurs,
     an appropriate error message is printed to standard error.
-
     Args:
         value (int): The value to print as an integer.
-
     Returns:
         bool: True if the value is successfully printed as an integer,
               False otherwise. If an error occurs, the error message
