@@ -6,15 +6,14 @@ def safe_print_integer_err(value):
 
     Args:
         value (int): The value to print as an integer.
-
     Returns:
-        bool: True if the value is successfully printed as an integer,
-              False otherwise. If an error occurs, the error message
-              is printed to stderr preceded by "Exception:".
+        True if the value is successfully printed as an integer,
+        False otherwise. If an error occurs, the error message
+        is printed to stderr preceded by "Exception:".
     '''
     try:
         print("{:d}".format(value))
         return True
     except Exception as e:
-        print("Exception: {}".format(sys.exc_info()[1]), file=sys.stderr)
+        print("Exception: {}".format(e), file=sys.stderr)
         return False
