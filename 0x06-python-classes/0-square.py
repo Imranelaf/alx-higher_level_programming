@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
-'''Empty  calss'''
+'''Creat the class'''
 
 
 class Square:
+    '''Empty class'''
     pass
