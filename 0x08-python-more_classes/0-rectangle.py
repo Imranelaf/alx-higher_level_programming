@@ -4,5 +4,5 @@
 
 
 class Rectangle:
-  '''This class defines a rectangle'''
+    '''This class defines a rectangle'''
     pass
