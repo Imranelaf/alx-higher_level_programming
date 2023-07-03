@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 
-'''This module defines a class Rectangle'''
+'''
+This module defines the Rectangle class.
+'''
 
 class Rectangle:
     '''
@@ -20,7 +22,7 @@ class Rectangle:
 
     def __init__(self, width=0, height=0):
         '''
-        Initializes a rectangle with the specified width and height.
+        Initializes a rectangle instance with the specified width and height.
 
         Args:
             width (int): The width of the rectangle.
@@ -84,3 +86,4 @@ class Rectangle:
         if value < 0:
             raise ValueError("Height must be >= 0")
         self.__height = value
+
