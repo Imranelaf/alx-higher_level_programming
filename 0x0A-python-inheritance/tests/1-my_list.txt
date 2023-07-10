@@ -1,6 +1,6 @@
-1-my_list.txt
+using 1-my_list.txt
 
-''print_sorted()''.
+''print_sorted()'' returns the list sorted.
 
 Numbers:
 -------
