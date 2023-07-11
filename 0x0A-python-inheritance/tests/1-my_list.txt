@@ -1,5 +1,7 @@
-using 1-my_list.txt
+The ``1-my_list`` module
+======================
 
+Using ``MyList``
 ''print_sorted()'' returns the list sorted.
 
 Numbers:
