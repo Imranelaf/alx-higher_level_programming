@@ -2,6 +2,6 @@
 """ function that writes a string to a text file UTF8"""
 
 
-def number_of_lines(filename=""):
-    with open(filename, "r", encoding="UTF-8") as f:
-        return len(list(f))
+def write_file(filename="", text=""):
+    with open(filename, "w", encoding="utf-8") as f:
+        return f.write(text)
