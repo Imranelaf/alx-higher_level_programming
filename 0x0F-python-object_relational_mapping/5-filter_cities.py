@@ -6,6 +6,11 @@ import MySQLdb
 from sys import argv
 
 if __name__ == '__main__':
+    """
+    Main function to access the database and retrieve city names in a
+    specified state.
+    """
+
     database = MySQLdb.connect(host="localhost", user=argv[1], port=3306,
                                passwd=argv[2], db=argv[3])
 
